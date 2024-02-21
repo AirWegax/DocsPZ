@@ -10,6 +10,14 @@ body {
     color: #fff;
     font-family: 'Rubik', sans-serif;
     background-color: #080808;
+
+}   
+body::-webkit-scrollbar {
+    background-color: #0f0f0f;
+}
+body::-webkit-scrollbar-thumb {
+    border: 1px solid #2c2c2c;
+    background-color: #252525;
 }
 header {
     background-color: #0f0f0f;
@@ -32,6 +40,8 @@ header {
 .logo-text span:hover {
     background-color: rgba(255, 255, 255, 0.2);
     padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
     -webkit-box-shadow: 0px 0px 12px 3px rgba(255, 255, 255, 0.2);
     -moz-box-shadow: 0px 0px 12px 3px rgba(255, 255, 255, 0.2);
     box-shadow: 0px 0px 12px 3px rgba(255, 255, 255, 0.2);
@@ -95,8 +105,8 @@ header {
     transition: 0.5s;
     text-align: center;
     margin-top: 100px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: #fff;
 }
 .footer:hover {

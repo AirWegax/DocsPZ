@@ -1,0 +1,21 @@
+.educate {
+    margin: 50px;
+}
+.step {
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+.step-header {
+    display: flex;
+    margin: 20px;
+    margin-left: 20px;
+}
+.step-header p {
+    background-color: #000000;
+    margin-left: 20px;
+}
+.step-header p span {
+    border: 1px solid #fff;
+    border-radius: 12px;
+    padding: 5px;
+}
